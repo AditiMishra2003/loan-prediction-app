@@ -6,6 +6,7 @@ A Machine Learning-powered web application built with **Streamlit** that predict
 
 ---
 📊 Dataset Overview
+
 The dataset used is a publicly available Loan Prediction Dataset containing information such as:
 
 1.Gender, Marital Status, Dependents
@@ -23,6 +24,7 @@ Target: Loan Status (Y for approved, N for not approved)
 🔗 Dataset Source: https://www.kaggle.com/datasets/ninzaami/loan-predication
 
 ##🎯 Skills Demonstrated:
+
 1.Data cleaning & preprocessing
 
 2.Data visualization for EDA
@@ -47,27 +49,25 @@ Target: Loan Status (Y for approved, N for not approved)
 
 ## 🚀 Tech Stack
 
- Tool              Purpose                          
- Python            Programming Language             
- Pandas, NumPy     Data manipulation & preprocessing
- Scikit-learn      Model training                   
- Streamlit         Web app interface               
- Pickle            Model serialization              
+ Tool      --        Purpose                          
+ Python    --        Programming Language             
+ Pandas, NumPy  --   Data manipulation & preprocessing
+ Scikit-learn --      Model training                   
+ Streamlit   --      Web app interface               
+ Pickle       --     Model serialization              
 
 ---
 
 ## 📁 Project Structure
 
 loan-prediction-app/
+│
+├── app.py # Streamlit web app
+├── loan_model.sav # Trained ML model
+├── requirements.txt # Required Python packages
+├── loan_pred_accuracy.ipynb # Training and evaluation notebook
 
-── app.py # Streamlit web app
-── loan_model.sav # Trained ML model
-── requirements.txt # Required Python packages
-── loan_pred_accuracy.ipynb # Training and evaluation notebook
 
-yaml
-Copy
-Edit
 
 
 ---
@@ -87,6 +87,7 @@ Edit
 
 ```
 🌱 Future Scope and Improvements:
+
 1.Feature Engineering:
 Derive new features such as income-to-loan ratio, total family income, etc., to enhance model performance.
 
