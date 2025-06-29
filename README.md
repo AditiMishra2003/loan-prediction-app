@@ -1,6 +1,6 @@
 # 🏦 Loan Prediction App
 
-A Machine Learning-powered web application built with **Streamlit** that predicts whether a loan will be approved or not based on user inputs. The model is trained on historical loan application data using logistic regression.
+A Machine Learning-powered web application built with **Streamlit** that predicts whether a loan will be approved or not based on user inputs. The model is trained on historical loan application data using SVM.
 
 🔗 [Live Demo](https://loan-prediction-app-jfpyxgadua4y5pxwqjtl9g.streamlit.app/) <!-- (update with your actual Streamlit Cloud link) -->
 
